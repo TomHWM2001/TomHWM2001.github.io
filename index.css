@@ -24,9 +24,15 @@ h1{
 	font-family: times new roman, sans serif;  
 }
 
+#color {
+	background-color: rgb(170,170,170);
+	width:70%;
+	display: inline-block
+}
+
 #content{
 	color: yellow;
-	width:70%;
+	margin:20px;
 	display: inline-block;
 	font-weight:bolder;
 	font-size:18px;
