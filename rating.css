@@ -4,7 +4,7 @@ body {
 
 #menu {
 	background-color: #F2EB66;
-	height: 100px;
+	height:100px;
 }
 
 #logo {
@@ -27,39 +27,54 @@ body {
 
 h1{
 	font-size: 50px;
-	margin-left: 15%;
-	margin-right: 15%;
 	background-color: aqua; 
 	font-family: times new roman, sans serif;  
 }
 
-.pictures {
-	background-color: rgba(0,255,255,60%);
-	margin: 2%;
-	width: 20%;
-	border-width: 8%;
+#color {
+	background-color: rgba(83,105,228,60%);
+	display: inline-block;
+}
+
+#content{
+	color: yellow;
+	margin:25px;
+	display: inline-block;
+	font-weight:bolder;
+	font-size:25px;
+}
+
+#margin {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.box {
+	margin-top: 30px;
+	display: inline-block;
+	background-color: darkslateblue;
+	color: #F2EB66;
+	padding: 20px;
+	border-style: dashed;
+	border-width: 15px;
 	border-color: #F2EB66;
-	border-style: solid; 
-	border-radius: 20px;
-	float: left;
-}
-
-#picture1{
-	margin-left: 30px;
-}
-
-.texts {
-	margin: 10px;
-	font-size: 30px;
-	font-weight: bolder;
+	border-radius: 40px;
+	font-size: 20px;
 }
 
 .boxtitle {
-	font-size: 40px;
+	color: #F2EB66;
+	font-size: 32px;
+	font-family: monaco, sans serif;
+	font-weight: bolder;
+}
+
+.boxtitle:hover{
+	font-size: 36px;
+	transition: font-size 1s;
 }
 
 #contact {
-	clear: both;
 	margin-top: 30px;
 	margin-left: 2%;
 	margin-bottom: 100px;
@@ -84,19 +99,9 @@ h1{
 	transition: color 1s;
 }
 
-#left {
-	margin-left: 5%;
-}
-
 .bold {
 	font-weight: bolder;
 	font-family: noteworthy, cursive;
-}
-
-#star {
-    position: fixed;
-    bottom:120px;
-    right:20px;
 }
 
 #button {

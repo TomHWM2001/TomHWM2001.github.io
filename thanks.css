@@ -4,7 +4,7 @@ body {
 
 #menu {
 	background-color: #F2EB66;
-	height: 100px;
+	height:100px;
 }
 
 #logo {
@@ -25,48 +25,46 @@ body {
 	transition: font-size 1s;
 }
 
-h1{
-	font-size: 50px;
+#color {
+	background-color: rgba(83,105,228,60%);
+	display: inline-block;
+}
+
+#content{
+	color: yellow;
+	margin:25px;
+	display: inline-block;
+	font-weight:bolder;
+	font-size:25px;
+}
+
+#margin {
 	margin-left: 15%;
 	margin-right: 15%;
-	background-color: aqua; 
-	font-family: times new roman, sans serif;  
+	margin-top: 100px;
 }
 
-.pictures {
-	background-color: rgba(0,255,255,60%);
-	margin: 2%;
-	width: 20%;
-	border-width: 8%;
-	border-color: #F2EB66;
-	border-style: solid; 
-	border-radius: 20px;
-	float: left;
+h1{
+	color:yellow;
 }
 
-#picture1{
-	margin-left: 30px;
+#yellow{
+	color:yellow;
 }
 
-.texts {
-	margin: 10px;
-	font-size: 30px;
-	font-weight: bolder;
-}
-
-.boxtitle {
-	font-size: 40px;
+#yellow:hover{
+	font-size: 36px;
+	transition: font-size 1s;
 }
 
 #contact {
-	clear: both;
 	margin-top: 30px;
 	margin-left: 2%;
 	margin-bottom: 100px;
 	background-color: #E15DF4;
 	border-radius: 30px;
 	width: 96%;
-	font-size:25px;
+	font-size:18px;
 	color: #E15DF4;
 	padding:8px;
 }
@@ -84,19 +82,9 @@ h1{
 	transition: color 1s;
 }
 
-#left {
-	margin-left: 5%;
-}
-
 .bold {
 	font-weight: bolder;
 	font-family: noteworthy, cursive;
-}
-
-#star {
-    position: fixed;
-    bottom:120px;
-    right:20px;
 }
 
 #button {

@@ -26,8 +26,7 @@ body {
 }
 
 h1{
-	font-family: ;
-	font-size: 40px;
+	font-size: 50px;
 	background-color: aqua; 
 	font-family: times new roman, sans serif;  
 }
@@ -39,10 +38,10 @@ h1{
 
 #content{
 	color: yellow;
-	margin:20px;
+	margin:25px;
 	display: inline-block;
 	font-weight:bolder;
-	font-size:18px;
+	font-size:25px;
 }
 
 #margin {
@@ -60,18 +59,18 @@ h1{
 	border-width: 15px;
 	border-color: #F2EB66;
 	border-radius: 40px;
-	font-size: 20px;
+	font-size: 28px;
 }
 
 .boxtitle {
 	color: #F2EB66;
-	font-size: 32px;
+	font-size: 40px;
 	font-family: monaco, sans serif;
 	font-weight: bolder;
 }
 
 .boxtitle:hover{
-	font-size: 36px;
+	font-size: 44px;
 	transition: font-size 1s;
 }
 
@@ -82,7 +81,7 @@ h1{
 	background-color: #E15DF4;
 	border-radius: 30px;
 	width: 96%;
-	font-size:18px;
+	font-size:25px;
 	color: #E15DF4;
 	padding:8px;
 }
@@ -103,6 +102,12 @@ h1{
 .bold {
 	font-weight: bolder;
 	font-family: noteworthy, cursive;
+}
+
+#star {
+    position: fixed;
+    bottom:120px;
+    right:20px;
 }
 
 #button {
