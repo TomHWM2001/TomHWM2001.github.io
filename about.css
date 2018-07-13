@@ -4,14 +4,16 @@ body {
 
 #menu {
 	background-color: #F2EB66;
+	height: 100px;
 }
 
 #logo {
 	margin-left: 10%;
-	display: inline-block;
+	float: left;
 }
 
 .topcolumn {
+	clear: both;
 	margin-left: 1.5%;
 	width: 12%;
 	display: inline-block;
@@ -61,19 +63,22 @@ p {
 
 #contact {
 	margin-top: 30px;
-	margin-left: 5%;
+	margin-left: 2%;
 	margin-bottom: 100px;
 	background-color: #E15DF4;
 	border-radius: 30px;
-	width: 90%;
+	width: 96%;
 	font-size:18px;
 	color: #E15DF4;
 	padding:8px;
-	height:300px;
 }
 
 #hint {
 	color:white;
+}
+
+#contactinfo {
+	margin-left: 5%;
 }
 
 #contact:hover{
