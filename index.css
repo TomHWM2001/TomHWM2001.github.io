@@ -1,14 +1,19 @@
 body {
-    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2016/02/Silver-Wallpaper-26.jpg");
+    background-image: url("https://wallpapercave.com/wp/pCXMo7v.jpg");
 }
 
 #menu {
 	background-color: #F2EB66;
 }
 
+#logo {
+	margin-left: 10%;
+	display: inline-block;
+}
+
 .topcolumn {
-	margin-left: 2%;
-	width: 15%;
+	margin-left: 1.5%;
+	width: 12%;
 	display: inline-block;
 	padding: 3px;
 }
@@ -18,18 +23,15 @@ body {
 	transition: font-size 1s;
 }
 
-#Top {
-	margin-left: 25%;
-}
-
 h1{
+	font-family: ;
 	font-size: 40px;
 	background-color: aqua; 
 	font-family: times new roman, sans serif;  
 }
 
 #color {
-	background-color: rgb(170,170,170);
+	background-color: rgba(83,105,228,60%);
 	width:70%;
 	display: inline-block
 }
@@ -42,20 +44,44 @@ h1{
 	font-size:18px;
 }
 
-#Pizza {
-	margin-left: 50px;
+#margin {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 100px;
 }
 
-#margin {
-	margin: 40px;
+.box {
+	margin-top: 30px;
+	width: 70%;
+	display: inline-block;
+	background-color: darkslateblue;
+	color: #F2EB66;
+	padding: 20px;
+	border-style: dashed;
+	border-width: 15px;
+	border-color: #F2EB66;
+	border-radius: 40px;
+	font-size: 20px;
+}
+
+.boxtitle {
+	color: #F2EB66;
+	font-size: 32px;
+	font-family: monaco, sans serif;
+	font-weight: bolder;
+}
+
+.boxtitle:hover{
+	font-size: 36px;
+	transition: font-size 1s;
 }
 
 #contact {
-	margin-top:30px;
+	margin-top: 30px;
+	margin-left: 10%;
 	background-color: #E15DF4;
 	border-radius: 30px;
-	float:right;
-	width: 250px;
+	width: 80%;
 	font-size:18px;
 	color: #E15DF4;
 	padding:8px;

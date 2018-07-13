@@ -1,14 +1,19 @@
 body {
-    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2016/02/Silver-Wallpaper-26.jpg");
+    background-image: url("https://wallpapercave.com/wp/pCXMo7v.jpg");
 }
 
 #menu {
 	background-color: #F2EB66;
 }
 
+#logo {
+	margin-left: 10%;
+	display: inline-block;
+}
+
 .topcolumn {
-	margin-left: 2%;
-	width: 15%;
+	margin-left: 1.5%;
+	width: 12%;
 	display: inline-block;
 	padding: 3px;
 }
@@ -18,22 +23,18 @@ body {
 	transition: font-size 1s;
 }
 
-#Top {
-	margin-left: 25%;
-}
-
 h1{
 	font-size: 40px;
-	background-color: aqua; 
 	font-family: times new roman, sans serif;  
+	background-color: aqua; 
+	width: 70%;
 }
 
 .pictures {
-	background-color: aqua;
+	background-color: rgba(0,255,255,60%);
 	margin: 2%;
 	width: 20%;
-	height:600px;
-	border-width: 5%;
+	border-width: 8%;
 	border-color: #F2EB66;
 	border-style: solid; 
 	border-radius: 20px;
@@ -46,16 +47,21 @@ h1{
 
 .texts {
 	margin: 10px;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: bolder;
 }
 
+.boxtitle {
+	font-size: 30px;
+}
 #contact {
 	clear: both;
-	margin-top:30px;
+	margin-top: 30px;
+	margin-left: 10%;
+	margin-bottom: 100px;
 	background-color: #E15DF4;
 	border-radius: 30px;
-	width: 500px;
+	width: 80%;
 	font-size:18px;
 	color: #E15DF4;
 	padding:8px;
