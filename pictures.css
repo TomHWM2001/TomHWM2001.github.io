@@ -57,11 +57,11 @@ h1{
 #contact {
 	clear: both;
 	margin-top: 30px;
-	margin-left: 10%;
+	margin-left: 5%;
 	margin-bottom: 100px;
 	background-color: #E15DF4;
 	border-radius: 30px;
-	width: 80%;
+	width: 90%;
 	font-size:18px;
 	color: #E15DF4;
 	padding:8px;
@@ -83,7 +83,7 @@ h1{
 }
 
 #button {
-    background-color: #7DE54C;
+    background-color: yellow;
     opacity: 0.8;
     border: none;
     border-radius: 50%;
